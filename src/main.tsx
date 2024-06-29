@@ -8,27 +8,26 @@ import Project from "./pages/project";
 import Art from "./pages/art";
 import About from "./pages/about";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/project",
-      element: <Project />,
-    },
-    {
-      path: "/project/:projectId",
-      element: <About />,
-    },
-    {
-      path: "/art",
-      element: <Art />,
-    },
-  ],
-  { basename: "/" }
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/project",
+    element: <Project />,
+    children: [
+      {
+        path: "/project/:projectId",
+        element: <About />,
+      },
+    ],
+  },
+  {
+    path: "/art",
+    element: <Art />,
+  },
+]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <style>

@@ -37,6 +37,7 @@ export default function Project() {
             ))}
           </div>
         </div>
+        <div className="showcase-bg layer"></div>
       </div>
     </div>
   );

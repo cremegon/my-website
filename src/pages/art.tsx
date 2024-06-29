@@ -8,6 +8,7 @@ export default function Art() {
         <div className="art-content">
           <h1 className="art-title">Art</h1>
         </div>
+        <div className="showcase-bg layer"></div>
       </div>
     </div>
   );
