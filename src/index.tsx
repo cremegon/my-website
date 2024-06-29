@@ -7,10 +7,13 @@ export default function Home() {
       <Navbar />
       <div className="showcase-screen">
         <div className="landing-content">
-          <h1>Hi, {"{visitor}"}</h1>
-          <h1>Hussain Ahmed Shaikh</h1>
+          <div className="showcase-title">
+          <h1 className="head1">Hi, {"{visitor}"}:</h1>
+          <h1 className="head2"><span>Hussain Ahmed Shaikh</span></h1>
+          </div>
+          
         </div>
-
+        <div className="showcase-bg layer"></div>
         <div className="blob"></div>
       </div>
     </div>
