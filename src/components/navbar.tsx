@@ -5,7 +5,11 @@ const Navbar = () => {
     <div className="sidebar">
       <nav className="nav-main">
         <div className="icon-wrapper">
-          <img className="nav-icon" src="./src/assets/nav-icon.png" alt="" />
+          <img
+            className="nav-icon"
+            src="./src/assets/nav-icon.png"
+            alt="banner-pic"
+          />
         </div>
 
         <ul className="links">
