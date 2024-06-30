@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Project from "./pages/project";
 import Art from "./pages/art";
-import About from "./pages/about";
+import Nier from "./pages/project-pages/ProjectNier";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/project/:projectId",
-    element: <About />,
+    element: <Nier />,
   },
   {
     path: "/art",
@@ -32,6 +32,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       @import
       url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
     </style>
+
     <RouterProvider router={router} />
   </React.StrictMode>
 );

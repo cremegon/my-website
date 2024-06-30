@@ -4,7 +4,7 @@ export default function Art() {
   return (
     <div className="container">
       <Navbar />
-      <div className="showcase-screen">
+      <div className="showcase-screen main">
         <div className="art-content">
           <h1 className="art-title">Art</h1>
         </div>

@@ -28,7 +28,7 @@ export default function Project() {
   return (
     <div className="container">
       <Navbar />
-      <div className="showcase-screen">
+      <div className="showcase-screen main">
         <div className="project-content">
           <h1 className="project-title">Projects:</h1>
           <div className="card-layouts">

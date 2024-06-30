@@ -5,7 +5,7 @@
   --subtle-text: #354a5a;
   --text-color: #ebebeb;
   --showcase-font: "Nabla";
-  --title-font: "Paytone";
+  --title-font: "DM Serif";
   --text-font: "DMMono";
 }
 
@@ -46,13 +46,24 @@ a {
   background-repeat: no-repeat;
 }
 
+.showcase-screen-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--text-color);
+}
+
 /* Homepage */
 
 .landing-content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -64,11 +75,20 @@ a {
   letter-spacing: 2px;
 }
 
+.showcase-title {
+  width: 50%;
+  border: var(--text-color) dashed 5px;
+}
+
 .head1 {
   background-color: black;
   padding: 0rem 2rem;
   color: rgb(18, 240, 207);
-  width: 50%;
+  width: 70%;
+}
+
+.head1 span {
+  color: goldenrod;
 }
 
 .head2 {
@@ -76,48 +96,42 @@ a {
   padding: 0rem 2rem;
   margin-left: 5rem;
   color: var(--text-color);
+  width: 65%;
+}
+
+.showcase-face {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: center;
+  margin-top: 10vh;
+  font-family: var(--text-font);
+  color: var(--subtle-color);
+  font-size: 3rem;
+  text-align: center;
+  border: var(--secondary-color) dashed 5px;
+  padding-top: 1rem;
+  line-height: 1.5;
+  background-color: var(--text-color);
+}
+
+.showcase-face p {
   width: 100%;
 }
 
-.dot2 {
-  position: absolute;
-  top: -10%;
-  left: 93%;
-  width: 40px;
-  height: 40px;
-  background: #d8434f;
-  border-radius: 20px;
+.showcase-face p:nth-child(n + 1):nth-last-child(n + 2) {
+  border-bottom: #1e303e solid 4px;
 }
 
-.popup-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.popup {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.7rem;
-  font-family: "Mukta";
-  transform: translate(20%, 30%);
-  width: 500px;
+.face {
+  width: 150px;
   height: 150px;
-  z-index: 3;
-  border-radius: 3px 30px 30px 30px;
-  background: var(--subtle-color);
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.popup a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.popup:hover {
-  opacity: 1;
+  background: url(/src/assets/hussain_front.png), rgb(173, 123, 99);
+  background-position: center 55%;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
 }
 
 .blob {
@@ -212,6 +226,22 @@ a {
   width: 70%;
   margin-top: 10%;
   font-size: 1.5rem;
+}
+
+/* Project-content Pages */
+
+.nier-content {
+  width: 90%;
+  height: 100%;
+  background: url(./assets/bg-grid2.svg);
+  background-size: 40%;
+  background-position: center 51%;
+}
+
+.title-content h1 {
+  margin: 3rem 0rem 0rem 3rem;
+  font-size: 4rem;
+  font-family: var(--title-font);
 }
 
 /* Navbar */
@@ -316,4 +346,9 @@ a {
 @font-face {
   font-family: "Paytone";
   src: url(./assets/PaytoneOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "DM Serif";
+  src: url(./assets/DMSerifDisplay-Regular.ttf);
 }
