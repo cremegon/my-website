@@ -30,7 +30,7 @@ export default function Project() {
       <Navbar />
       <div className="showcase-screen">
         <div className="project-content">
-          <h1 className="project-title">Projects</h1>
+          <h1 className="project-title">Projects:</h1>
           <div className="card-layouts">
             {projectData.map((item) => (
               <CardComp title={item.title} thumb={item.img} id={item.id} />

@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="sidebar">
       <nav className="nav-main">
         <div className="icon-wrapper">
-          <img className="nav-icon" src="./src/assets/nav-icon.png" alt="" />
+          <img className="nav-icon" src="/src/assets/nav-icon.png" alt="" />
         </div>
 
         <ul className="links">
@@ -24,7 +24,7 @@ const Navbar = () => {
             <img
               src="/src/assets/github.png"
               alt=""
-              className="github footer-img"
+              className="footer-img github"
             />
           </a>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
             <img
               src="/src/assets/linkedin.png"
               alt=""
-              className="linkedin footer-img"
+              className="footer-img linkedin"
             />
           </a>
         </div>
