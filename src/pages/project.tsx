@@ -10,7 +10,7 @@ export default function Project() {
       id: "1",
     },
     {
-      img: "/src/assets/website-screens/hero/hero1.png",
+      img: "/src/assets/website-screens/hero/herocover.png",
       title: "Hero Website",
       goto: "/project/hero-website",
       id: "2",
