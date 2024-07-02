@@ -11,7 +11,7 @@ export default function Contact() {
 "
             target="_blank"
           >
-            <div className="status-bar">
+            <div className="contact-title-holder">
               <div className="status-holder">
                 <img
                   src="/src/assets/gmail-icon.png"
@@ -19,14 +19,7 @@ export default function Contact() {
                   className="status-icon"
                 />
               </div>
-            </div>
-            <div className="contact-title-holder">
-              <img
-                src="/src/assets/finger3d.png"
-                alt="finger"
-                className="contact-ptr"
-              />
-              <h1 className="contact-title">get in touch</h1>
+              <h1 className="contact-title">{"<get>"} in touch</h1>
             </div>
           </a>
         </div>
