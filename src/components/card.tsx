@@ -4,11 +4,12 @@ interface CardProps {
   title?: string;
   thumb?: string;
   id?: string;
+  goto?: string;
 }
 
-const CardComp: React.FC<CardProps> = ({ title, thumb, id }) => {
+const CardComp: React.FC<CardProps> = ({ title, thumb, id, goto }) => {
   return (
-    <Link to="/project/hero-website">
+    <Link to={goto}>
       <div className="project-card" id={id}>
         <img src={thumb} alt="thumbnail" className="card-thumb" />
         <div className="card-title">

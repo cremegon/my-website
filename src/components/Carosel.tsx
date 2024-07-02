@@ -5,24 +5,13 @@ import {
   faArrowCircleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Carosel = () => {
-  const caroselData = [
-    {
-      src: "https://uimgs.com/1280x720/EFEFEF/-1.png",
-      alt: "img-1",
-      index: "1",
-    },
-    {
-      src: "https://uimgs.com/1280x720/EFEFEF/-2.png",
-      alt: "img-2",
-      index: "2",
-    },
-    {
-      src: "https://uimgs.com/1280x720/EFEFEF/-3.png",
-      alt: "img-3",
-      index: "3",
-    },
-  ];
+interface CaroselProps {
+  caroselData?: { src: string; alt: string; index: string }[];
+  data?: { src: string; alt: string; index: string }[];
+}
+
+const Carosel: React.FC<CaroselProps> = ({ data }) => {
+  const caroselData = data;
 
   const [slide, setSlide] = useState(0);
 

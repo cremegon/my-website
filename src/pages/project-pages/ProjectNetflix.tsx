@@ -1,18 +1,18 @@
 import Carosel from "../../components/Carosel";
-import { NierData } from "../../components/data/DataList";
+import { NetflixData } from "../../components/data/DataList";
 import Navbar from "../../components/navbar";
 
-export default function Nier() {
+export default function Netflix() {
   return (
     <div className="container">
       <Navbar />
       <div className="showcase-screen-content">
         <div className="page-content nier">
           <div className="title-content">
-            <h1>Yoko Taro - Hero Website</h1>
+            <h1>Netflix Clone</h1>
           </div>
 
-          <Carosel data={NierData} />
+          <Carosel data={NetflixData} />
 
           <div className="text-content nier">
             <p>

@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 
-export default function Art() {
+export default function Contact() {
   return (
     <div className="container">
       <Navbar />

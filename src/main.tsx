@@ -5,8 +5,11 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Project from "./pages/project";
-import Art from "./pages/art";
 import Nier from "./pages/project-pages/ProjectNier";
+import Wridden from "./pages/project-pages/ProjectWridden";
+import Contact from "./pages/Contact";
+import Netflix from "./pages/project-pages/ProjectNetflix";
+import Random from "./pages/project-pages/ProjectRandom";
 
 const router = createBrowserRouter([
   {
@@ -18,12 +21,24 @@ const router = createBrowserRouter([
     element: <Project />,
   },
   {
-    path: "/project/:projectId",
+    path: "/project/hero-website",
     element: <Nier />,
   },
   {
-    path: "/art",
-    element: <Art />,
+    path: "/project/wridden",
+    element: <Wridden />,
+  },
+  {
+    path: "/project/netflix-clone",
+    element: <Netflix />,
+  },
+  {
+    path: "/project/random",
+    element: <Random />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(

@@ -40,7 +40,6 @@
 a {
   list-style: none;
   text-decoration: none;
-  color: var(--text-color);
 }
 
 .container {
@@ -202,7 +201,7 @@ a {
   display: flex;
   flex-direction: column;
   transition: transform 0.2s;
-  background: black;
+  background: var(--text-color);
 }
 
 .project-card:hover {
@@ -211,10 +210,11 @@ a {
 
 .card-title {
   height: 100%;
-  background: black;
+  background: var(--text-color);
   padding: 1rem 1rem;
   font-family: var(--text-font);
   font-size: 0.75rem;
+  color: black;
 }
 
 /* About Me */

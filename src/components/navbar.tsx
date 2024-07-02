@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to="/project">Project</Link>
           </li>
           <li>
-            <Link to="/art">Art</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <div className="blank-color">
