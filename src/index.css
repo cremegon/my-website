@@ -185,7 +185,7 @@ a {
 
 .thumb-container {
   width: 100%;
-  height: 37vh;
+  height: 30vh;
 }
 
 .card-thumb {
@@ -230,6 +230,10 @@ a {
   font-family: var(--text-font);
   font-size: 0.8rem;
   color: var(--text-color);
+}
+
+.card-title h3 {
+  margin-top: 1rem;
 }
 
 /* About Me */
@@ -362,6 +366,10 @@ a {
   margin: 0rem 0.2rem;
 }
 
+.spheres:hover {
+  cursor: pointer;
+}
+
 .spheres-selected {
   background-color: var(--primary-color);
   border: rgb(50, 216, 50) solid 3px;
@@ -393,7 +401,7 @@ a {
 .text-content {
   width: 80%;
   font-family: var(--text-font);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 6rem;
 }
 
@@ -402,12 +410,26 @@ a {
   margin: 1rem 0rem 0rem 3rem;
 }
 
+.text-content li {
+  margin-top: 1.2rem;
+}
+
 .text-content span {
   font-weight: bold;
   font-style: italic;
 }
 
 .text-content h2 {
+  margin: 2rem 0;
+  background-color: #cccccc;
+}
+
+.text-content h2:first-child {
+  background-color: var(--primary-color);
+}
+
+.text-content img {
+  width: 100%;
   margin: 2rem 0;
 }
 

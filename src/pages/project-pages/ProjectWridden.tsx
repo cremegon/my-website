@@ -17,54 +17,121 @@ export default function Wridden() {
           <div className="text-content nier">
             <h2>Objective:</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
-              Laoreet id donec ultrices tincidunt. Tellus cras adipiscing enim
-              eu turpis egestas pretium. Pellentesque massa placerat duis
-              ultricies lacus sed. Aliquam ultrices sagittis orci a scelerisque
-              purus semper eget. Odio morbi quis commodo odio aenean sed
-              adipiscing. Eros in cursus turpis massa tincidunt dui ut ornare
-              lectus. Aliquam nulla facilisi cras fermentum odio. Lorem sed
-              risus ultricies tristique nulla aliquet enim. Congue quisque
-              egestas diam in arcu cursus euismod quis. Purus non enim praesent
-              elementum facilisis leo vel. Aenean euismod elementum nisi quis
-              eleifend quam adipiscing. Sit amet aliquam id diam maecenas. Sed
-              vulputate odio ut enim blandit volutpat maecenas volutpat. Massa
-              eget egestas purus viverra accumsan in nisl nisi. Enim praesent
-              elementum facilisis leo vel fringilla est.
+              The objective of the application was to create a simple yet
+              effective app for storytellers of all levels to write and share
+              their work.
+              <br />
+              <br />
             </p>
             <h2>Research:</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
-              Laoreet id donec ultrices tincidunt. Tellus cras adipiscing enim
-              eu turpis egestas pretium. Pellentesque massa placerat duis
-              ultricies lacus sed.
+              The primary source of research was academic case studies and
+              interviews conducted with 10 individuals of various backgrounds,
+              professions and ages. Once the data was collected, personas would
+              be formed out of the collective wants, needs and nice-to-haves
+              from the interviewee's input and the features of the app would be
+              designed around a <span>user-centric methodology</span>. <br />
+              <br />
+              <span>A problem statement was clearly defined: </span>
+              For a novice writer, keeping track of everything in a story can be
+              a daunting task, especially in the process of writing. Getting
+              feedback can be difficult. The app should provide an easy-to-use
+              tool to solve these problems.
+              <br />
+              <br />
+              <span>The vision statement that grounded it: </span> Create
+              effective communication through simple stories.
+              <br />
+              <br />
+              Context Scenarios followed shortly with the personas afterward.
             </p>
-            <h2>Approach:</h2>
+            <h2>Technology</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
-              Laoreet id donec ultrices tincidunt. Tellus cras adipiscing enim
-              eu turpis egestas pretium. Pellentesque massa placerat duis
-              ultricies lacus sed. Aliquam ultrices sagittis orci a scelerisque
-              purus semper eget. Odio morbi quis commodo odio aenean sed
-              adipiscing. Eros in cursus turp
+              The application was created through the React Native Framework.
+              With the primary language being JavaScript & TypeScript alongside
+              a basic authentication done through an async backend and SQL.
+              <br />
+              <br />
+              For low-fidelity and high-fidelity designs, the primary technology
+              used was Figma and coded in HTML/CSS.
+            </p>
+            <h2>Analysis:</h2>
+            <p>
+              From the two personas formed, the key requirements of the app were
+              as follows:
+              <ul>
+                <li>
+                  A pull-down graph interface that reminded users of time spent
+                  and the arc they are in.
+                </li>
+                <li>
+                  A repository of simple stories that mark the point of each arc
+                  in a story's trajectory to teach new/younger users the
+                  corner-stone of writing management.
+                </li>
+                <li>
+                  A community hub to engage writers with one another, providing
+                  feedback and making friends.
+                </li>
+                <li>
+                  In-app story challenges and "Prompts of the Week" to promote
+                  users to write together and share their stories.
+                </li>
+              </ul>
+              <br />
+              <br />
+              Additionally, when discussing a layout they had in mind with any
+              reference provided as to what an inviting app would look like to
+              them, as well as the ideal and non-ideal layout of a
+              "writing-app", the theme of the app was created accordingly.
+              <br />
+              <br />
+            </p>
+            <h2>Design:</h2>
+            <p>
+              From user reports, the most welcoming color they associated an app
+              with such descriptors were centered towards a "warm" palette.
+              <br />
+              <br />
+            </p>
+            <img
+              src="/src/assets/website-screens/wridden/sitemap.png"
+              alt=""
+              className="sitemap"
+            />
+            <p>
+              The following theme was then carefully selected with the accent
+              color have least use, in order to be balanced carefully with more
+              softer and grey tones, so that the app would be easy on the eye
+              and close to the visual association to the users.
+              <br />
+              <br />
+            </p>
+            <img
+              src="/src/assets/website-screens/wridden/color-palette1.png"
+              alt=""
+              className="palette"
+            />
+            <p>
+              The app was refactored after the first pass, divided into reusable
+              components. While props were initially used to pass data between
+              screens, further React Hooks were used to streamline the process
+              using "useEffect", "useContext" and "useState".
             </p>
             <h2>Outcome:</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
-              Laoreet id donec ultrices tincidunt. Tellus cras adipiscing enim
-              eu turpis egestas pretium. Pellentesque massa placerat duis
-              ultricies lacus sed. Aliquam ultrices sagittis orci a scelerisque
-              purus semper eget. Odio morbi quis commodo odio aenean sed
-              adipiscing. Eros in cursus turp
+              A functioning mobile app that achieved the design and
+              functionality of the project. With the ability to write stories,
+              save them, share them and to additionally create character
+              profiles saved seperately, so that users could visit old and new
+              characters at a later time to edit and refactor them back as
+              inspiration in new chapters and stories.
             </p>
+            <img
+              src="/src/assets/website-screens/wridden/screens.png"
+              alt=""
+              className="app-screens"
+            />
 
             <a href="/">
               <div className="project-linked">visit the project here!</div>
