@@ -185,7 +185,7 @@ a {
 
 .thumb-container {
   width: 100%;
-  height: 30vh;
+  height: 37vh;
 }
 
 .card-thumb {
@@ -228,7 +228,7 @@ a {
   background: var(--subtle-text);
   padding: 1rem 1rem;
   font-family: var(--text-font);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--text-color);
 }
 
@@ -395,6 +395,36 @@ a {
   font-family: var(--text-font);
   font-size: 1.2rem;
   margin-bottom: 6rem;
+}
+
+.text-content ul {
+  margin-left: 3rem;
+  margin: 1rem 0rem 0rem 3rem;
+}
+
+.text-content span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text-content h2 {
+  margin: 2rem 0;
+}
+
+.project-linked {
+  margin: 3rem 0;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-weight: bold;
+  background: var(--subtle-color);
+}
+
+.project-linked:hover {
+  color: gold;
+}
+
+.text-content a {
+  color: #999;
 }
 
 /* Navbar */
