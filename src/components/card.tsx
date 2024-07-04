@@ -13,7 +13,11 @@ const CardComp: React.FC<CardProps> = ({ title, sub, thumb, id, goto }) => {
     <Link to={{ pathname: `${goto}` }}>
       <div className="project-card" id={id}>
         <div className="thumb-container">
-          <img src={thumb} alt="thumbnail" className="card-thumb" />
+          <img
+            src={import.meta.env.BASE_URL + thumb}
+            alt="thumbnail"
+            className="card-thumb"
+          />
         </div>
 
         <div className="card-title">
