@@ -13,7 +13,7 @@ import Random from "./pages/project-pages/ProjectRandom";
 
 const router = createBrowserRouter([
   {
-    path: "/my-website/",
+    path: "/my-website",
     element: <Home />,
   },
   {
