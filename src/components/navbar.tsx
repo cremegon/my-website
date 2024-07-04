@@ -5,7 +5,11 @@ const Navbar = () => {
     <div className="sidebar">
       <nav className="nav-main">
         <div className="icon-wrapper">
-          <img className="nav-icon" src="./assets/nav-icon.png" alt="" />
+          <img
+            className="nav-icon"
+            src={import.meta.env.BASE_URL + "./assets/nav-icon.png"}
+            alt=""
+          />
         </div>
 
         <ul className="links">
