@@ -15,7 +15,7 @@ export default function Random() {
           <Carosel data={RandomData} />
 
           <div className="text-content nier">
-            <h2>This website was made in React!</h2>
+            <h2>This website was made in React and Vite!</h2>
           </div>
         </div>
       </div>

@@ -5,12 +5,12 @@ const Navbar = () => {
     <div className="sidebar">
       <nav className="nav-main">
         <div className="icon-wrapper">
-          <img className="nav-icon" src="/src/assets/nav-icon.png" alt="" />
+          <img className="nav-icon" src="./src/assets/nav-icon.png" alt="" />
         </div>
 
         <ul className="links">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/my-website/">Home</Link>
           </li>
           <li>
             <Link to="/project">Project</Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="blank-color">
           <a target="_blank" href="https://github.com/cremegon">
             <img
-              src="/src/assets/github.png"
+              src="./src/assets/github.png"
               alt=""
               className="footer-img github"
             />
@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <a target="_blank" href="https://www.linkedin.com/in/cremegon/">
             <img
-              src="/src/assets/linkedin.png"
+              src="./src/assets/linkedin.png"
               alt=""
               className="footer-img linkedin"
             />
