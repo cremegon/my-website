@@ -87,17 +87,17 @@ export default function Wridden() {
               <br />
               <br />
               <img
-                src="./src/assets/website-screens/wridden/lofi1.png"
+                src="assets/website-screens/wridden/lofi1.png"
                 alt="lofi1"
                 className="lofi"
               />
               <img
-                src="./src/assets/website-screens/wridden/lofi2.png"
+                src="assets/website-screens/wridden/lofi2.png"
                 alt="lofi2"
                 className="lofi"
               />
               <img
-                src="./src/assets/website-screens/wridden/lofi3.png"
+                src="assets/website-screens/wridden/lofi3.png"
                 alt="lofi3"
                 className="lofi"
               />
@@ -110,7 +110,7 @@ export default function Wridden() {
               <br />
             </p>
             <img
-              src="./src/assets/website-screens/wridden/sitemap.png"
+              src="assets/website-screens/wridden/sitemap.png"
               alt=""
               className="sitemap"
             />
@@ -123,7 +123,7 @@ export default function Wridden() {
               <br />
             </p>
             <img
-              src="./src/assets/website-screens/wridden/color-palette1.png"
+              src="assets/website-screens/wridden/color-palette1.png"
               alt=""
               className="palette"
             />
@@ -143,7 +143,7 @@ export default function Wridden() {
               inspiration in new chapters and stories.
             </p>
             <img
-              src="./src/assets/website-screens/wridden/screens.png"
+              src="assets/website-screens/wridden/screens.png"
               alt=""
               className="app-screens"
             />

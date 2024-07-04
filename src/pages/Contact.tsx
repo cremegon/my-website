@@ -14,7 +14,7 @@ export default function Contact() {
             <div className="contact-title-holder">
               <div className="status-holder">
                 <img
-                  src="./src/assets/gmail-icon.png"
+                  src="assets/gmail-icon.png"
                   alt="status-icon"
                   className="status-icon"
                 />
