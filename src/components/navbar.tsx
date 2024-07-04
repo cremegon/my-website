@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="icon-wrapper">
           <img
             className="nav-icon"
-            src={import.meta.env.BASE_URL + "./assets/nav-icon.png"}
+            src={import.meta.env.BASE_URL + "/assets/nav-icon.png"}
             alt=""
           />
         </div>
