@@ -10,7 +10,7 @@ interface CardProps {
 
 const CardComp: React.FC<CardProps> = ({ title, sub, thumb, id, goto }) => {
   return (
-    <Link to={goto}>
+    <Link to={{ pathname: `${goto}` }}>
       <div className="project-card" id={id}>
         <div className="thumb-container">
           <img src={thumb} alt="thumbnail" className="card-thumb" />

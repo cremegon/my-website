@@ -6,11 +6,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 interface CaroselProps {
-  caroselData?: { src: string; alt: string; index: string }[];
   data?: { src: string; alt: string; index: string }[];
 }
 
-const Carosel: React.FC<CaroselProps> = ({ data }) => {
+const Carosel: React.FC<CaroselProps> = ({ data = [] }) => {
   const caroselData = data;
 
   const [slide, setSlide] = useState(0);
