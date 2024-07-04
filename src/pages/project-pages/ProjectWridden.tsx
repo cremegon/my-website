@@ -80,12 +80,27 @@ export default function Wridden() {
               </ul>
               <br />
               <br />
-              Additionally, when discussing a layout they had in mind with any
-              reference provided as to what an inviting app would look like to
-              them, as well as the ideal and non-ideal layout of a
-              "writing-app", the theme of the app was created accordingly.
+              Additionally, when discussing a layout they had in mind as to what
+              an inviting app would look like, as well as the ideal and
+              non-ideal layout of a "writing-app", the theme of the app was
+              created accordingly.
               <br />
               <br />
+              <img
+                src="/src/assets/website-screens/wridden/lofi1.png"
+                alt="lofi1"
+                className="lofi"
+              />
+              <img
+                src="/src/assets/website-screens/wridden/lofi2.png"
+                alt="lofi2"
+                className="lofi"
+              />
+              <img
+                src="/src/assets/website-screens/wridden/lofi3.png"
+                alt="lofi3"
+                className="lofi"
+              />
             </p>
             <h2>Design:</h2>
             <p>
@@ -101,9 +116,9 @@ export default function Wridden() {
             />
             <p>
               The following theme was then carefully selected with the accent
-              color have least use, in order to be balanced carefully with more
-              softer and grey tones, so that the app would be easy on the eye
-              and close to the visual association to the users.
+              color having least use, in order to be balanced carefully with
+              more softer and grey tones, so that the app would be easy on the
+              eye and close to the visual association to the users.
               <br />
               <br />
             </p>
@@ -133,7 +148,10 @@ export default function Wridden() {
               className="app-screens"
             />
 
-            <a href="/">
+            <a
+              target="_blank"
+              href="https://github.com/cremegon/wridden-mobile-app"
+            >
               <div className="project-linked">visit the project here!</div>
             </a>
           </div>

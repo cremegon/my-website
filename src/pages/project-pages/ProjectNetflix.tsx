@@ -45,7 +45,7 @@ export default function Netflix() {
               of how browsers, WEB APIS and the backend works.
             </p>
 
-            <a href="/">
+            <a target="_blank" href="https://github.com/cremegon/netflix-clone">
               <div className="project-linked">visit the project here!</div>
             </a>
           </div>

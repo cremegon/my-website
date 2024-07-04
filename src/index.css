@@ -428,9 +428,18 @@ a {
   background-color: var(--primary-color);
 }
 
-.text-content img {
+.app-screen,
+.palette,
+.sitemap,
+.app-screens {
   width: 100%;
   margin: 2rem 0;
+  border: 3px solid var(--subtle-text);
+}
+
+.lofi {
+  width: 100%;
+  border: 3px solid var(--subtle-text);
 }
 
 .project-linked {

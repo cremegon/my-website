@@ -71,7 +71,7 @@ export default function Nier() {
               friendly website design.
             </p>
 
-            <a href="/">
+            <a target="_blank" href="https://github.com/cremegon/hero-website">
               <div className="project-linked">visit the project here!</div>
             </a>
           </div>

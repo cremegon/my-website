@@ -20,7 +20,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="blank-color">
-          <a href="https://github.com/cremegon">
+          <a target="_blank" href="https://github.com/cremegon">
             <img
               src="/src/assets/github.png"
               alt=""
@@ -28,7 +28,7 @@ const Navbar = () => {
             />
           </a>
 
-          <a href="https://www.linkedin.com/in/cremegon/">
+          <a target="_blank" href="https://www.linkedin.com/in/cremegon/">
             <img
               src="/src/assets/linkedin.png"
               alt=""
