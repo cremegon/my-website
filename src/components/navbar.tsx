@@ -12,6 +12,10 @@ const Navbar = () => {
             src="../public/assets/nav-icon.png"
             alt=""
           />
+          <img className="nav-icon" src="public/assets/nav-icon.png" alt="" />
+          <img className="nav-icon" src="assets/nav-icon.png" alt="" />
+          <img className="nav-icon" src="./assets/nav-icon.png" alt="" />
+          <img className="nav-icon" src="../assets/nav-icon.png" alt="" />
         </div>
 
         <ul className="links">
