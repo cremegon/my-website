@@ -14,7 +14,7 @@ import Random from "./pages/project-pages/ProjectRandom";
 const router = createBrowserRouter(
   [
     {
-      path: "/my-website",
+      path: "/my-website/",
       element: <Home />,
     },
     {
@@ -42,7 +42,7 @@ const router = createBrowserRouter(
       element: <Contact />,
     },
   ],
-  { basename: "/my-website" }
+  { basename: "/my-website/" }
 );
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
