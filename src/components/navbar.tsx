@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="blank-color">
           <a target="_blank" href="https://github.com/cremegon">
             <img
-              src={import.meta.env.BASE_URL + "assets/github.png"}
+              src={import.meta.env.BASE_URL + "/assets/github.png"}
               alt=""
               className="footer-img github"
             />
@@ -34,7 +34,7 @@ const Navbar = () => {
 
           <a target="_blank" href="https://www.linkedin.com/in/cremegon/">
             <img
-              src={import.meta.env.BASE_URL + "assets/linkedin.png"}
+              src={import.meta.env.BASE_URL + "/assets/linkedin.png"}
               alt=""
               className="footer-img linkedin"
             />

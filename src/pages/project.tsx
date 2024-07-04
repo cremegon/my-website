@@ -4,28 +4,28 @@ import CardComp from "../components/card";
 export default function Project() {
   const projectData = [
     {
-      img: "assets/website-screens/wridden/wridden1.png",
+      img: "/assets/website-screens/wridden/wridden1.png",
       title: "Wridden - Story Social App",
       sub: "React/SQL/Figma",
       goto: "/project/wridden",
       id: "1",
     },
     {
-      img: "assets/website-screens/hero/herocover.png",
+      img: "/assets/website-screens/hero/herocover.png",
       title: "Hero Website",
       sub: "HTML/CSS/JavaScript",
       goto: "/project/hero-website",
       id: "2",
     },
     {
-      img: "assets/website-screens/netflix/netflix1.png",
+      img: "/assets/website-screens/netflix/netflix1.png",
       title: "Netflix Clone App",
       sub: "HTML/CSS/JavaScript",
       goto: "/project/netflix-clone",
       id: "3",
     },
     {
-      img: "assets/website-screens/web/web1.png",
+      img: "/assets/website-screens/web/web1.png",
       title: "This Website!",
       sub: "React",
       goto: "/project/random",
