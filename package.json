@@ -2,7 +2,7 @@
   "name": "my-website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cremegon.github.io/",
+  "homepage": "https://cremegon.github.io/my-website",
   "type": "module",
   "scripts": {
     "dev": "vite",

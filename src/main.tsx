@@ -31,7 +31,8 @@ const router = createBrowserRouter(
       </Route>
       <Route element={<Contact />} path="contact" />
     </Route>
-  )
+  ),
+  { basename: "/my-website/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
