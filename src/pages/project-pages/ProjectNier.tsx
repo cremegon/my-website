@@ -1,6 +1,5 @@
 import Carosel from "../../components/Carosel";
 import { NierData } from "../../components/data/DataList";
-import Navbar from "../../components/navbar";
 
 export default function Nier() {
   return (

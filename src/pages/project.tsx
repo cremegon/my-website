@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar";
 import CardComp from "../components/card";
 
 export default function Project() {

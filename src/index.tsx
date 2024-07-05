@@ -1,4 +1,3 @@
-import Navbar from "./components/navbar";
 import "./index.css";
 
 export default function Home() {

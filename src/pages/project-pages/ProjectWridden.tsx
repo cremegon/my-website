@@ -1,6 +1,5 @@
 import Carosel from "../../components/Carosel";
 import { WriddenData } from "../../components/data/DataList";
-import Navbar from "../../components/navbar";
 
 export default function Wridden() {
   return (

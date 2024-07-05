@@ -1,6 +1,5 @@
 import Carosel from "../../components/Carosel";
 import { NetflixData } from "../../components/data/DataList";
-import Navbar from "../../components/navbar";
 
 export default function Netflix() {
   return (

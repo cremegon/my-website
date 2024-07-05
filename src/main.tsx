@@ -18,42 +18,6 @@ import Random from "./pages/project-pages/ProjectRandom";
 import Layout from "./Layout";
 import ProjectHomeLayout from "./ProjectHomeLayout";
 
-const routerr = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/project",
-    element: <Project />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-
-  {
-    path: "/project/hero-website",
-    element: <Nier />,
-  },
-  {
-    path: "/project/wridden",
-    element: <Wridden />,
-  },
-  {
-    path: "/project/netflix-clone",
-    element: <Netflix />,
-  },
-  {
-    path: "/project/random",
-    element: <Random />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-]);
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Layout />} path="/">

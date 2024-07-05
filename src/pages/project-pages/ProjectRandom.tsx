@@ -1,6 +1,5 @@
 import Carosel from "../../components/Carosel";
 import { RandomData } from "../../components/data/DataList";
-import Navbar from "../../components/navbar";
 
 export default function Random() {
   return (
