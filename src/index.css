@@ -4,7 +4,6 @@
   --subtle-color: #1e303e;
   --subtle-text: #354a5a;
   --text-color: #ebebeb;
-  --showcase-font: "Nabla";
   --title-font: "DM Serif";
   --text-font: "DMMono";
 }
@@ -56,7 +55,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./assets/showcase-bg.svg);
+  background: url(/assets/showcase-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -142,7 +141,7 @@ a {
 .face {
   width: 150px;
   height: 150px;
-  background: url(/src/assets/hussain_front.png), rgb(173, 123, 99);
+  background: url(/assets/hussain_front.png), rgb(173, 123, 99);
   background-position: center 55%;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -379,7 +378,7 @@ a {
 
 .page-content {
   width: 80%;
-  background: url(./assets/bg-grid2.svg);
+  background: url(/assets/bg-grid2.svg);
   background-size: 40%;
   background-position: center 51%;
   display: flex;
@@ -549,20 +548,20 @@ a {
 
 @font-face {
   font-family: "DMMono";
-  src: url(./assets/DMMono-Regular.ttf);
+  src: url(/assets/DMMono-Regular.ttf);
 }
 
 @font-face {
   font-family: "MuktaExtra";
-  src: url(./assets/Mukta-ExtraBold.ttf);
+  src: url(/assets/Mukta-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: "Paytone";
-  src: url(./assets/PaytoneOne-Regular.ttf);
+  src: url(/assets/PaytoneOne-Regular.ttf);
 }
 
 @font-face {
   font-family: "DM Serif";
-  src: url(./assets/DMSerifDisplay-Regular.ttf);
+  src: url(/assets/DMSerifDisplay-Regular.ttf);
 }

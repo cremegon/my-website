@@ -84,17 +84,26 @@ export default function Wridden() {
             <br />
             <br />
             <img
-              src="assets/website-screens/wridden/lofi1.png"
+              src={
+                import.meta.env.BASE_URL +
+                "/assets/website-screens/wridden/lofi1.png"
+              }
               alt="lofi1"
               className="lofi"
             />
             <img
-              src="assets/website-screens/wridden/lofi2.png"
+              src={
+                import.meta.env.BASE_URL +
+                "/assets/website-screens/wridden/lofi2.png"
+              }
               alt="lofi2"
               className="lofi"
             />
             <img
-              src="assets/website-screens/wridden/lofi3.png"
+              src={
+                import.meta.env.BASE_URL +
+                "/assets/website-screens/wridden/lofi3.png"
+              }
               alt="lofi3"
               className="lofi"
             />
@@ -107,7 +116,10 @@ export default function Wridden() {
             <br />
           </p>
           <img
-            src="assets/website-screens/wridden/sitemap.png"
+            src={
+              import.meta.env.BASE_URL +
+              "/assets/website-screens/wridden/sitemap.png"
+            }
             alt=""
             className="sitemap"
           />
@@ -120,7 +132,10 @@ export default function Wridden() {
             <br />
           </p>
           <img
-            src="assets/website-screens/wridden/color-palette1.png"
+            src={
+              import.meta.env.BASE_URL +
+              "/assets/website-screens/wridden/color-palette1.png"
+            }
             alt=""
             className="palette"
           />
@@ -140,7 +155,10 @@ export default function Wridden() {
             stories.
           </p>
           <img
-            src="assets/website-screens/wridden/screens.png"
+            src={
+              import.meta.env.BASE_URL +
+              "/assets/website-screens/wridden/screens.png"
+            }
             alt=""
             className="app-screens"
           />

@@ -37,11 +37,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <style>
-      @import
-      url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
-    </style>
-
     <RouterProvider router={router} />
   </React.StrictMode>
 );
