@@ -32,7 +32,7 @@ const Carosel: React.FC<CaroselProps> = ({ data = [] }) => {
     <div className="carosel-items">
       {caroselData.map((item, idx) => (
         <img
-          src={item.src}
+          src={import.meta.env.BASE_URL + item.src}
           alt={item.alt}
           className={slide == idx ? "slide" : "slide slide-hidden"}
           key={idx}

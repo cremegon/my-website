@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar";
 import CardComp from "../components/card";
 
 export default function Project() {
@@ -7,51 +6,48 @@ export default function Project() {
       img: "/assets/website-screens/wridden/wridden1.png",
       title: "Wridden - Story Social App",
       sub: "React/SQL/Figma",
-      goto: "/project/wridden",
+      goto: "wridden",
       id: "1",
     },
     {
-      img: "/assets/website-screens/hero/herocover.png",
+      img: "/assets/website-screens/hero/herocover.PNG",
       title: "Hero Website",
       sub: "HTML/CSS/JavaScript",
-      goto: "/project/hero-website",
+      goto: "hero",
       id: "2",
     },
     {
-      img: "/assets/website-screens/netflix/netflix1.png",
+      img: "/assets/website-screens/netflix/netflix1.PNG",
       title: "Netflix Clone App",
       sub: "HTML/CSS/JavaScript",
-      goto: "/project/netflix-clone",
+      goto: "netflix-clone",
       id: "3",
     },
     {
-      img: "/assets/website-screens/web/web1.png",
+      img: "/assets/website-screens/web/web1.PNG",
       title: "This Website!",
       sub: "React",
-      goto: "/project/random",
+      goto: "recursion",
       id: "4",
     },
   ];
 
   return (
-    <div className="container">
-      <Navbar />
-      <div className="showcase-screen main">
-        <div className="project-content">
-          <h1 className="project-title">
-            Projects<span>:</span>
-          </h1>
-          <div className="card-layouts">
-            {projectData.map((item) => (
-              <CardComp
-                title={item.title}
-                thumb={item.img}
-                id={item.id}
-                goto={item.goto}
-                sub={item.sub}
-              />
-            ))}
-          </div>
+    <div className="showcase-screen main">
+      <div className="project-content">
+        <h1 className="project-title">
+          Projects<span>:</span>
+        </h1>
+        <div className="card-layouts">
+          {projectData.map((item) => (
+            <CardComp
+              title={item.title}
+              thumb={item.img}
+              id={item.id}
+              goto={item.goto}
+              sub={item.sub}
+            />
+          ))}
         </div>
       </div>
     </div>
