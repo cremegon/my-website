@@ -10,25 +10,32 @@ export default function Project() {
       id: "1",
     },
     {
+      img: "/assets/website-screens/brainy/brain7.JPG",
+      title: "Brainy - LMS Design",
+      sub: "UI/UX/Figma",
+      goto: "brainy",
+      id: "2",
+    },
+    {
       img: "/assets/website-screens/hero/herocover.PNG",
       title: "Hero Website",
       sub: "HTML/CSS/JavaScript",
       goto: "hero",
-      id: "2",
+      id: "3",
     },
     {
       img: "/assets/website-screens/netflix/netflix1.PNG",
       title: "Netflix Clone App",
       sub: "HTML/CSS/JavaScript",
       goto: "netflix-clone",
-      id: "3",
+      id: "4",
     },
     {
       img: "/assets/website-screens/web/web1.PNG",
       title: "This Website!",
       sub: "React",
       goto: "recursion",
-      id: "4",
+      id: "5",
     },
   ];
 

@@ -82,3 +82,41 @@ export const RandomData: { src: string; alt: string; index: string }[] = [
     index: "1",
   },
 ];
+
+export const BrainyData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/brainy/brain1.JPG",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/brainy/brain2.JPG",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/brainy/brain3.JPG",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/brainy/brain4.JPG",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/brainy/brain5.JPG",
+    alt: "img-5",
+    index: "5",
+  },
+  {
+    src: "assets/website-screens/brainy/brain6.JPG",
+    alt: "img-6",
+    index: "6",
+  },
+  {
+    src: "assets/website-screens/brainy/brain7.JPG",
+    alt: "img-7",
+    index: "7",
+  },
+];

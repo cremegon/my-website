@@ -17,6 +17,7 @@ import Netflix from "./pages/project-pages/ProjectNetflix";
 import Random from "./pages/project-pages/ProjectRandom";
 import Layout from "./Layout";
 import ProjectHomeLayout from "./ProjectHomeLayout";
+import Brainy from "./pages/project-pages/ProjectBrainy";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
         <Route element={<Nier />} path="hero" />
         <Route element={<Netflix />} path="netflix-clone" />
         <Route element={<Random />} path="recursion" />
+        <Route element={<Brainy />} path="brainy" />
       </Route>
       <Route element={<Contact />} path="contact" />
     </Route>
