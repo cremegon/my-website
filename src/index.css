@@ -405,7 +405,8 @@ a {
   margin-bottom: 6rem;
 }
 
-.text-content ul {
+.text-content ul,
+ol {
   margin-left: 3rem;
   margin: 1rem 0rem 0rem 3rem;
 }
@@ -419,27 +420,48 @@ a {
   font-style: italic;
 }
 
-.text-content h2 {
+.text-content h2,
+h4 {
   margin: 2rem 0;
   background-color: #cccccc;
 }
 
-.text-content h2:first-child {
+.text-content h2:last-of-type,
+.text-content h2:first-of-type {
   background-color: var(--primary-color);
 }
 
 .app-screen,
 .palette,
 .sitemap,
-.app-screens {
+.app-screens,
+.persona,
+.diag {
   width: 100%;
   margin: 2rem 0;
   border: 3px solid var(--subtle-text);
 }
 
+.inpage-carosel {
+  width: 200px;
+}
+
 .lofi {
   width: 100%;
   border: 3px solid var(--subtle-text);
+}
+
+.lofibrain {
+  width: 40%;
+  margin: 0.5rem;
+  border: 2px solid var(--subtle-text);
+}
+
+.lofibrain-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project-linked {

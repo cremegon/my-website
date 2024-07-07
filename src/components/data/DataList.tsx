@@ -120,3 +120,26 @@ export const BrainyData: { src: string; alt: string; index: string }[] = [
     index: "7",
   },
 ];
+
+export const BrainyLofi: { src: string; alt: string; class: string }[] = [
+  {
+    src: "assets/website-screens/brainy/wireframe1.JPG",
+    alt: "wire1",
+    class: "lofibrain",
+  },
+  {
+    src: "assets/website-screens/brainy/wireframe2.JPG",
+    alt: "wire2",
+    class: "lofibrain",
+  },
+  {
+    src: "assets/website-screens/brainy/wireframe3.JPG",
+    alt: "wire3",
+    class: "lofibrain",
+  },
+  {
+    src: "assets/website-screens/brainy/wireframe4.JPG",
+    alt: "wire4",
+    class: "lofibrain",
+  },
+];
