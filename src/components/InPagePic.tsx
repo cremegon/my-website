@@ -25,7 +25,7 @@ const InPagePic: React.FC<ImageProps> = ({ data, type }) => {
       </div>
       {max && (
         <div className="modal">
-          <div className="overlay">
+          <div className="overlay" onClick={handleMax}>
             <div className="modal-content">
               <img
                 src={import.meta.env.BASE_URL + data}
