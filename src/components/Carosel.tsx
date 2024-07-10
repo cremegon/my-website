@@ -77,7 +77,7 @@ const Carosel: React.FC<CaroselProps> = ({ data = [] }) => {
       </div>
       {max && (
         <div className="modal">
-          <div className="overlay" onClick={handleMax}>
+          <div className="overlay">
             <div className="modal-content">
               <img
                 src={import.meta.env.BASE_URL + caroselData[modalImg].src}
