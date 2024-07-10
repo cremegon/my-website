@@ -675,6 +675,7 @@ h4 {
   .sidebar {
     width: 100%;
     border: none;
+    position: static;
   }
 
   .nav-main {
@@ -841,7 +842,7 @@ h4 {
   }
 
   .project-card {
-    width: 450px;
+    width: 80vw;
     margin: 2rem 0;
     background: black;
     border: 5px solid var(--subtle-color);
@@ -885,5 +886,8 @@ h4 {
 
   .project-title {
     margin-top: 2rem;
+  }
+  ::-webkit-scrollbar {
+    display: none;
   }
 }
