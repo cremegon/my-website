@@ -1,5 +1,6 @@
 import Carosel from "../../components/Carosel";
 import { WriddenData } from "../../components/data/DataList";
+import InPagePic from "../../components/InPagePic";
 
 export default function Wridden() {
   return (
@@ -83,29 +84,17 @@ export default function Wridden() {
             accordingly.
             <br />
             <br />
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/wridden/lofi1.png"
-              }
-              alt="lofi1"
-              className="lofi"
+            <InPagePic
+              data="/assets/website-screens/wridden/lofi1.png"
+              type="lofi"
             />
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/wridden/lofi2.png"
-              }
-              alt="lofi2"
-              className="lofi"
+            <InPagePic
+              data="/assets/website-screens/wridden/lofi2.png"
+              type="lofi"
             />
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/wridden/lofi3.png"
-              }
-              alt="lofi3"
-              className="lofi"
+            <InPagePic
+              data="/assets/website-screens/wridden/lofi3.png"
+              type="lofi"
             />
           </p>
           <h2>Design:</h2>
@@ -115,14 +104,11 @@ export default function Wridden() {
             <br />
             <br />
           </p>
-          <img
-            src={
-              import.meta.env.BASE_URL +
-              "/assets/website-screens/wridden/sitemap.png"
-            }
-            alt=""
-            className="sitemap"
+          <InPagePic
+            data="/assets/website-screens/wridden/sitemap.png"
+            type="non-lofi"
           />
+
           <p>
             The following theme was then carefully selected with the accent
             color having least use, in order to be balanced carefully with more
@@ -131,14 +117,11 @@ export default function Wridden() {
             <br />
             <br />
           </p>
-          <img
-            src={
-              import.meta.env.BASE_URL +
-              "/assets/website-screens/wridden/color-palette1.png"
-            }
-            alt=""
-            className="palette"
+          <InPagePic
+            data="/assets/website-screens/wridden/color-palette1.png"
+            type="non-lofi"
           />
+
           <p>
             The app was refactored after the first pass, divided into reusable
             components. While props were initially used to pass data between
@@ -154,13 +137,9 @@ export default function Wridden() {
             edit and refactor them back as inspiration in new chapters and
             stories.
           </p>
-          <img
-            src={
-              import.meta.env.BASE_URL +
-              "/assets/website-screens/wridden/screens.png"
-            }
-            alt=""
-            className="app-screens"
+          <InPagePic
+            data="/assets/website-screens/wridden/screens.png"
+            type="non-lofi"
           />
 
           <a

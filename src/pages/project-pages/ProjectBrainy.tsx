@@ -1,5 +1,6 @@
 import Carosel from "../../components/Carosel";
 import { BrainyData, BrainyLofi } from "../../components/data/DataList";
+import InPagePic from "../../components/InPagePic";
 
 export default function Brainy() {
   return (
@@ -75,14 +76,11 @@ export default function Brainy() {
             Interviews were successful in capturing a wide range of students and
             constructing a complex persona: "Maria Anakin Walkins".
           </p>
-          <img
-            src={
-              import.meta.env.BASE_URL +
-              "/assets/website-screens/brainy/persona1.JPG"
-            }
-            alt="persona"
-            className="persona"
+          <InPagePic
+            data="/assets/website-screens/brainy/persona1.JPG"
+            type="non-lofi"
           />
+
           <p>
             Interviews ranging from CS, Arts and Law students had varying
             lifestyles and qualms from the current LMS.
@@ -115,13 +113,9 @@ export default function Brainy() {
             knowledge flows directly from material to lecturer to student. It is
             the mean by which the quality of education is determined primarily
             by interactions the lecturer has with the source material.
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/brainy/diag1.JPG"
-              }
-              alt="diag1"
-              className="diag"
+            <InPagePic
+              data="/assets/website-screens/brainy/diag1.JPG"
+              type="non-lofi"
             />
             If the teacher does not engage with the source material, then they
             become nothing less than the reflection of the course material
@@ -135,13 +129,9 @@ export default function Brainy() {
             Therefore, it would be important for a redesign to clearly provide
             both course material and lecturer's slides clearly for them to call
             back to effective lectures.
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/brainy/diag2.JPG"
-              }
-              alt="diag2"
-              className="diag"
+            <InPagePic
+              data="/assets/website-screens/brainy/diag2.JPG"
+              type="non-lofi"
             />
             Secondly, with <span>Informal Learning</span>, the transfer of
             knowledge is done by successfully cultivating a discussion between
@@ -154,13 +144,9 @@ export default function Brainy() {
             Hence, a forum platform on the online LMS where students can
             continue effective conversations from the classroom online would
             supplement the learning even further.
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/brainy/diag3.JPG"
-              }
-              alt="diag3"
-              className="diag"
+            <InPagePic
+              data="/assets/website-screens/brainy/diag3.JPG"
+              type="non-lofi"
             />
             Lastly, with <span>Unformal Learning</span>, for students who have
             been stimulated from formal and/or informal learning strategies, an
@@ -198,25 +184,17 @@ export default function Brainy() {
             color, as too much stimulation in a site meant for educative
             purposes may overwhelm students who are already engaged in mental
             activity.
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/brainy/palette.JPG"
-              }
-              alt="diag3"
-              className="diag"
+            <InPagePic
+              data="/assets/website-screens/brainy/palette.JPG"
+              type="non-lofi"
             />
             So instead, we aimed for a less saturated color palette that
             emulated that of an indoor desk plant, evoking a sense of calm and
             organization, with elements having slightly rounded corners and
             large, easy to distinguish boundaries.
-            <img
-              src={
-                import.meta.env.BASE_URL +
-                "/assets/website-screens/brainy/brain2.JPG"
-              }
-              alt="diag3"
-              className="diag"
+            <InPagePic
+              data="/assets/website-screens/brainy/brain2.JPG"
+              type="non-lofi"
             />
             For the font, we used "Poppins" as a sans-serif style, with ample
             kernelling between letters and no hooks, so that it easily flows

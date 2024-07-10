@@ -41,6 +41,12 @@ a {
   text-decoration: none;
 }
 
+.layout-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -105,12 +111,31 @@ a {
   color: goldenrod;
 }
 
+.span-name {
+  color: goldenrod;
+}
+
+.span-dev {
+  color: violet;
+}
+
 .head2 {
   background: black;
   padding: 0rem 2rem;
   margin-left: 5rem;
   color: var(--text-color);
   width: 65%;
+}
+
+.head3 {
+  display: none;
+  background-color: black;
+  color: var(--text-color);
+  margin-left: 2rem;
+}
+
+.hide {
+  color: #1e303e;
 }
 
 .showcase-face {
@@ -247,6 +272,12 @@ a {
   align-items: center;
 }
 
+.contact-headtitle {
+  font-family: var(--title-font);
+  color: white;
+  font-size: 3rem;
+}
+
 .status-bar {
   margin-bottom: 1rem;
   display: flex;
@@ -318,6 +349,11 @@ a {
   object-fit: contain;
 }
 
+.slide:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .slide-hidden {
   display: none;
 }
@@ -343,6 +379,20 @@ a {
 
 .next {
   right: 2%;
+}
+
+.arrow-close {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: salmon;
+}
+
+.arrow-close:hover {
+  color: whitesmoke;
 }
 
 .indicator {
@@ -375,7 +425,55 @@ a {
   border: rgb(50, 216, 50) solid 3px;
 }
 
+.modal {
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlay {
+  background: rgba(53, 74, 90, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.modal-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Project-content Pages */
+
+.lofi {
+  margin: 0 0;
+}
+
+.non-lofi {
+  margin: 2rem 0;
+}
+
+.inpage {
+  width: 100%;
+  border: 3px solid var(--subtle-text);
+}
+
+.inpage:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 .page-content {
   width: 80%;
@@ -431,26 +529,6 @@ h4 {
   background-color: var(--primary-color);
 }
 
-.app-screen,
-.palette,
-.sitemap,
-.app-screens,
-.persona,
-.diag {
-  width: 100%;
-  margin: 2rem 0;
-  border: 3px solid var(--subtle-text);
-}
-
-.inpage-carosel {
-  width: 200px;
-}
-
-.lofi {
-  width: 100%;
-  border: 3px solid var(--subtle-text);
-}
-
 .lofibrain {
   width: 40%;
   margin: 0.5rem;
@@ -466,7 +544,7 @@ h4 {
 
 .project-linked {
   margin: 3rem 0;
-  padding: 0.75rem 0;
+  padding: 1rem 0;
   text-align: center;
   font-weight: bold;
   background: var(--subtle-color);
@@ -587,4 +665,225 @@ h4 {
 @font-face {
   font-family: "DM Serif";
   src: url(/assets/DMSerifDisplay-Regular.ttf);
+}
+
+@media only screen and (max-width: 600px) {
+  .layout-container {
+    flex-direction: column-reverse;
+  }
+
+  .sidebar {
+    width: 100%;
+    border: none;
+  }
+
+  .nav-main {
+    height: 100px;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+  }
+
+  .icon-wrapper {
+    border-bottom: none;
+    background-color: none;
+    width: 70px;
+  }
+
+  .nav-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-main .links li a {
+    color: var(--text-color);
+  }
+
+  .nav-main .links li a:focus {
+    color: goldenrod;
+  }
+
+  .nav-main .links li:first-child {
+    border-width: 0;
+    text-indent: 0;
+  }
+
+  .nav-main .links li {
+    line-height: 1;
+    border-bottom: none;
+    margin: auto auto;
+    text-indent: 0;
+  }
+
+  .blank-color {
+    display: none;
+  }
+
+  .blinker {
+    animation: blink 1s infinite step-end;
+  }
+
+  @keyframes blink {
+    0% {
+      color: whitesmoke;
+    }
+    50% {
+      color: black;
+    }
+    100% {
+      color: whitesmoke;
+    }
+  }
+
+  .landing-content {
+    flex-direction: column-reverse;
+    justify-content: start;
+    overflow: hidden;
+  }
+
+  .showcase-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .head1 {
+    width: 100%;
+    margin-left: 0;
+    padding: 1rem;
+    height: 35%;
+  }
+  .head2 {
+    display: none;
+  }
+
+  .head3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 0;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .landing-content h1 {
+    font-size: 2rem;
+  }
+
+  .showcase-face {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding-left: 0.75rem;
+    font-size: 1.75rem;
+    width: 100%;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    border: 3px solid rgb(64, 64, 188);
+    background: black;
+  }
+
+  .showcase-face p:nth-child(n + 1):nth-last-child(n + 2) {
+    border-bottom: none;
+  }
+  .showcase-face p:last-child {
+    border: 4px solid var(--subtle-text);
+    background-color: var(--primary-color);
+  }
+
+  .showcase-face p {
+    border: 4px solid #222;
+    width: auto;
+    background-color: rgb(40, 41, 40);
+  }
+
+  .showcase-face p:hover {
+    background-color: var(--primary-color);
+  }
+  .face {
+    width: 142px;
+    height: 142px;
+    margin: auto 0;
+    border: 4px solid var(--subtle-color);
+  }
+
+  .items {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem;
+    color: #555;
+  }
+
+  .project-title {
+    margin: 4rem 0rem 0rem 2rem;
+  }
+
+  .card-layouts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .project-card {
+    width: 450px;
+    margin: 2rem 0;
+    background: black;
+    border: 5px solid var(--subtle-color);
+  }
+
+  .card-title {
+    background: var(--subtle-color);
+  }
+
+  .contact-title-holder {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 200px;
+    border-radius: 7%;
+    margin-top: 2rem;
+    align-self: flex-start;
+  }
+  .status-holder {
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  .status-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .contact-title {
+    color: gold;
+    font-size: 1.75rem;
+    display: none;
+  }
+  .page-content {
+    width: 100%;
+  }
+
+  .carosel-items {
+    width: 96vw;
+  }
+
+  .project-title {
+    margin-top: 2rem;
+  }
 }

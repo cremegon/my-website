@@ -2,6 +2,9 @@ export default function Contact() {
   return (
     <div className="showcase-screen main">
       <div className="contact-content">
+        <div className="contact-headtitle">
+          <h1>Email & Connect</h1>
+        </div>
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=hussainahmed.s.shaikh@gmail.com
 "
