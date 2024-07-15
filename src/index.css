@@ -229,8 +229,8 @@ a {
 }
 
 .project-card {
-  width: 480px;
-  margin: 2rem 3rem;
+  width: 450px;
+  margin: 2rem 1rem;
   grid-area: card;
   display: flex;
   flex-direction: column;
