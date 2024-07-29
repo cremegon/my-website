@@ -143,3 +143,36 @@ export const BrainyLofi: { src: string; alt: string; class: string }[] = [
     class: "lofibrain",
   },
 ];
+
+export const PilotData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/userpilot/pilot1.png",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/userpilot/pilot2.png",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/userpilot/pilot3.png",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/userpilot/pilot4.png",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/userpilot/pilot5.png",
+    alt: "img-5",
+    index: "5",
+  },
+  {
+    src: "assets/website-screens/userpilot/pilot6.png",
+    alt: "img-6",
+    index: "6",
+  },
+];

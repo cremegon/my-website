@@ -3,6 +3,13 @@ import CardComp from "../components/card";
 export default function Project() {
   const projectData = [
     {
+      img: "/assets/website-screens/userpilot/pilot1.png",
+      title: "Userpilot Graphic Design",
+      sub: "Figma/InDesign",
+      goto: "pilot",
+      id: "6",
+    },
+    {
       img: "/assets/website-screens/wridden/wridden1.png",
       title: "Wridden - Story Social App",
       sub: "React/SQL/Figma",
