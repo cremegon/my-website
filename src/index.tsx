@@ -31,9 +31,17 @@ export default function Home() {
         <div className="showcase-face">
           <div className="face"></div>
           <div className="items">
+            <div className="normal-items">
             <p>Web</p>
             <p>UI/UX</p>
             <p>Data</p>
+            </div>
+  
+            <div className="secret-items">
+            <a target="_blank" href="https://www.linkedin.com/in/cremegon/"><p>LinkedIn</p></a>
+            <a target="_blank" href="https://www.behance.net/cremegon"><p>Behance</p></a>
+            <a target="_blank" href="https://github.com/cremegon"><p>Github</p></a>
+            </div>
           </div>
         </div>
       </div>

@@ -163,6 +163,10 @@ a {
   border-bottom: #1e303e solid 4px;
 }
 
+.secret-items{
+  display: none;
+}
+
 .face {
   width: 150px;
   height: 150px;
@@ -813,6 +817,25 @@ h4 {
   .showcase-face p:hover {
     background-color: var(--primary-color);
   }
+
+  .normal-items{
+    display: none;
+  }
+
+  .secret-items{
+    display:block;
+  }
+
+  .secret-items a {
+    text-decoration: none;
+    color: #555;
+  }
+
+  .secret-items p:hover{
+    cursor: pointer;
+    color: blue;
+  }
+
   .face {
     width: 142px;
     height: 142px;

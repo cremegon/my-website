@@ -5,7 +5,7 @@ export default function Project() {
     {
       img: "/assets/website-screens/userpilot/pilot1.png",
       title: "Userpilot Graphic Design",
-      sub: "Figma/InDesign",
+      sub: "UI/Figma/InDesign",
       goto: "pilot",
       id: "6",
     },
