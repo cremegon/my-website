@@ -19,6 +19,7 @@ import Layout from "./Layout";
 import ProjectHomeLayout from "./ProjectHomeLayout";
 import Brainy from "./pages/project-pages/ProjectBrainy";
 import UserPilot from "./pages/project-pages/ProjectPilot";
+import Preppy from "./pages/project-pages/ProjectPreppy";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
         <Route element={<Random />} path="recursion" />
         <Route element={<Brainy />} path="brainy" />
         <Route element={<UserPilot />} path="pilot" />
+        <Route element={<Preppy />} path="preppy"/>
       </Route>
       <Route element={<Contact />} path="contact" />
     </Route>

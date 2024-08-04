@@ -4,6 +4,13 @@ export default function Project() {
   const projectData = [
     {
       img: "/assets/website-screens/userpilot/pilot1.png",
+      title: "Django Webapp - Preppy",
+      sub: "Python/Django/Docker",
+      goto: "preppy",
+      id: "7",
+    },
+    {
+      img: "/assets/website-screens/userpilot/pilot1.png",
       title: "Userpilot Graphic Design",
       sub: "UI/Figma/InDesign",
       goto: "pilot",
