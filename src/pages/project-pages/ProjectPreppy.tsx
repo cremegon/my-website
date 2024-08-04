@@ -1,5 +1,5 @@
 import Carosel from "../../components/Carosel";
-import { PreppyData, RandomData } from "../../components/data/DataList";
+import { PreppyData } from "../../components/data/DataList";
 
 export default function Preppy() {
   return (
