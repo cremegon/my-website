@@ -176,3 +176,31 @@ export const PilotData: { src: string; alt: string; index: string }[] = [
     index: "6",
   },
 ];
+
+export const PreppyData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/preppy/preppy1.PNG",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/preppy/preppy2.PNG",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/preppy/preppy3.PNG",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/preppy/preppy4.PNG",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/preppy/preppy5.PNG",
+    alt: "img-5",
+    index: "5",
+  },
+];

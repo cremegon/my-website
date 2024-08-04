@@ -1,5 +1,5 @@
 import Carosel from "../../components/Carosel";
-import { RandomData } from "../../components/data/DataList";
+import { PreppyData, RandomData } from "../../components/data/DataList";
 
 export default function Preppy() {
   return (
@@ -9,63 +9,70 @@ export default function Preppy() {
           <h1>Django Webapp - Preppy</h1>
         </div>
 
-        <Carosel data={RandomData} />
+        <Carosel data={PreppyData} />
 
         <div className="text-content nier">
           <h2>Objective:</h2>
           <p>
-            For the course project, students were instructed to choose a
-            fictional or non-fictional character to dedicate a website on,
-            connected to their content, themes and subtexts; therefor, I chose
-            Yoko Taro.
+            Create a backend web app using a Django, that functions as a
+            Discord-like forum where users can share posts and interact with one
+            another.
             <br />
             <br />
-            Taro is well known for his bold, grim and experiential story telling
-            in videogames, so in order to capture the essence of his works, I
-            had to research the palette, shape design and UI/UX of his videogame
-            catalogue in order to replicate the same thing.
+            Once complete, it was so dockerize the app so that I may become
+            familiar with Docker as well.
           </p>
           <h2>Approach:</h2>
           <p>
-            First and foremost, I began with creating a moodboard via the
-            following:
+            I referenced a single tutorial that guided me though the structure
+            of a Django backend in its models and views.
             <br />
             <br />
-            <ul>
-              <li>The video-game title screens</li>
-              <li>The UI of the video-games</li>
-              <li>Color palette of character designs and world settings</li>
-              <li>Subtextual themes of the story</li>
-              <li>UI design of original websites created by the publishers</li>
-            </ul>
-            <br />
-            <br /> Once that was collected, I had to extract the bits of the
-            design that were consistant throughout his games, while also
-            selecting the most iconic and eye catching for a viewer.
+            Once done, I would do a 50/50 split of coding along the tutorial on
+            a single topic, and then in the next few days, I would redo the same
+            work from memory and trial/error in a new clone project.
             <br />
             <br />
-            Additionally, I also visited websites for his precious games for
-            Nier;Automata and Nier;Replicant to understand and replicate the
-            styling done with the original website.
+            My main objective was not to replicate, but to understand the
+            process and structure so that I may have full control to
+            troubleshoot and create future projects of my own without any
+            follow-alongs.
+            <br />
+            <br />
+            The only follow-along was the Dockerization process.
           </p>
-          <h2>Analysis:</h2>
+          <h2>Understanding:</h2>
           <p>
-            Taro's game designs share a theme of <span>faded colours</span> and{" "}
-            <span>serif fonts</span>. He tends to keep his main colors muted
-            towards the grey and likes to use a shade very close to black but
-            not exactly either. Colors tend to be towards the warmer side with
-            minimal UI embellishments and instead a very detailed artwork that
-            is cut through by a solid color of bold serif-font families.
+            I came to understand how Views and Models go hand in hand to process
+            and store data. Templates were not difficult to understand as
+            HTML/CSS are not a problem.
+            <br />
+            <br />I also came to use an ORM, which proved to be extremely
+            convenient as SQL data processing was a question in my mind, but by
+            practice was simplified through Django's inbuilt features to handle
+            requests, filters and responses.
+            <br />
+            <br />
+            It also helped me understand relational databases, as some models
+            would need to call on other models to target certain data features
+            when later processing templates, for examples the avatar icons and
+            comments made by their respective users, as well as search filters
+            that would find rooms/users depending on the topic name or user.
+            <br />
+            <br />
+            One the other hand, Docker did not seem to be so difficult, as it
+            was a matter of setting up installations and commands, afterwhich
+            Docker itself took the heavy lifting of creating an image and
+            container of the app.
           </p>
           <h2>Outcome:</h2>
           <p>
-            A successful homage to a creator that I very much look up to. I was
-            fully satisfied with the end result that not only fits the theme of
-            his works, but is also a responsive mobile and web friendly website
-            design.
+            A successful project where I was able to both familiarize, practice
+            and apply a backend on my own, with a thorough knowledge of backend,
+            HTTP requests and database management.
           </p>
 
-          <a target="_blank" href="https://github.com/cremegon/hero-website">
+          <a target="_blank" href="https://github.com/cremegon/django-webapp">
             <div className="project-linked">visit the project here!</div>
           </a>
         </div>

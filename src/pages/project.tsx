@@ -3,7 +3,7 @@ import CardComp from "../components/card";
 export default function Project() {
   const projectData = [
     {
-      img: "/assets/website-screens/userpilot/pilot1.png",
+      img: "/assets/website-screens/preppy/preppy5.PNG",
       title: "Django Webapp - Preppy",
       sub: "Python/Django/Docker",
       goto: "preppy",
