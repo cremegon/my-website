@@ -39,6 +39,13 @@ const Navbar = () => {
               className="footer-img linkedin"
             />
           </a>
+          <a target="_blank" href="https://www.behance.net/cremegon">
+            <img
+              src={import.meta.env.BASE_URL + "/assets/behance.png"}
+              alt=""
+              className="footer-img behance"
+            />
+          </a>
         </div>
       </nav>
     </div>

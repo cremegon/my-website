@@ -163,7 +163,7 @@ a {
   border-bottom: #1e303e solid 4px;
 }
 
-.secret-items{
+.secret-items {
   display: none;
 }
 
@@ -642,8 +642,8 @@ h4 {
 }
 
 .footer-img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin: 1rem 0;
 }
 
@@ -818,12 +818,12 @@ h4 {
     background-color: var(--primary-color);
   }
 
-  .normal-items{
+  .normal-items {
     display: none;
   }
 
-  .secret-items{
-    display:block;
+  .secret-items {
+    display: block;
   }
 
   .secret-items a {
@@ -831,7 +831,7 @@ h4 {
     color: #555;
   }
 
-  .secret-items p:hover{
+  .secret-items p:hover {
     cursor: pointer;
     color: blue;
   }
