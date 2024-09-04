@@ -695,10 +695,11 @@ h4 {
   }
 
   .nav-icon {
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    box-shadow: none;
+    display: none;
+  }
+
+  .icon-wrapper {
+    width: 0;
   }
 
   .links {
