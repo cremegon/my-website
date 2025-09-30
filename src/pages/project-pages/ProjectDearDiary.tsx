@@ -1,5 +1,6 @@
 import Carosel from "../../components/Carosel";
 import { DearDiaryData } from "../../components/data/DataList";
+import InPagePic from "../../components/InPagePic";
 
 export default function DearDiary() {
   return (
@@ -123,6 +124,10 @@ export default function DearDiary() {
             multiple times throughout the span of this project.
             <br />
             <br />
+            <InPagePic
+              data="/assets/website-screens/deardiary/leveldesign.png"
+              type="non-lofi"
+            />
             After a basic version of the site was ready, I opened it to closed
             user-testing between experts and friends, who provided me with
             additional feedback, requests and improvements to be made in favour
