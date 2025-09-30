@@ -20,7 +20,9 @@ export default function LostPets() {
             used previously in print.
             <br />
             <br />
-            The client requested a few pointers at the start of the project:{" "}
+            <span style={{ background: "yellow" }}>
+              The client requested a few pointers at the start of the project:
+            </span>
             <br />
             <br />
             1. Evokes the feeling of old lost posters. <br />

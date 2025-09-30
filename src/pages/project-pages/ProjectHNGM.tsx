@@ -29,7 +29,10 @@ export default function HNGMLabs() {
             minimalist designs.
             <br />
             <br />
-            Their criteria was as follows: <br />
+            <span style={{ background: "yellow" }}>
+              Their criteria was as follows:{" "}
+            </span>
+            <br />
             <br />
             1. Provide a minimalist color palette and design that conveys the
             complexity of their work, but does not clutter the site. Large
