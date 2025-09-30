@@ -20,6 +20,10 @@ import ProjectHomeLayout from "./ProjectHomeLayout";
 import Brainy from "./pages/project-pages/ProjectBrainy";
 import UserPilot from "./pages/project-pages/ProjectPilot";
 import Preppy from "./pages/project-pages/ProjectPreppy";
+import LostPets from "./pages/project-pages/ProjectLostPets";
+import HNGMLabs from "./pages/project-pages/ProjectHNGM";
+import Tasneem from "./pages/project-pages/ProjectTasneem";
+import DearDiary from "./pages/project-pages/ProjectDearDiary";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -33,7 +37,11 @@ const router = createBrowserRouter(
         <Route element={<Random />} path="recursion" />
         <Route element={<Brainy />} path="brainy" />
         <Route element={<UserPilot />} path="pilot" />
-        <Route element={<Preppy />} path="preppy"/>
+        <Route element={<Preppy />} path="preppy" />
+        <Route element={<LostPets />} path="lostpets" />
+        <Route element={<HNGMLabs />} path="hngmlabs" />
+        <Route element={<Tasneem />} path="tasneem" />
+        <Route element={<DearDiary />} path="deardiary" />
       </Route>
       <Route element={<Contact />} path="contact" />
     </Route>

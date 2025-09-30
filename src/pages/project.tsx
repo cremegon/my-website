@@ -3,6 +3,34 @@ import CardComp from "../components/card";
 export default function Project() {
   const projectData = [
     {
+      img: "/assets/website-screens/deardiary/login.png",
+      title: "Irish Archive Project - Fullstack",
+      sub: "UI/UX/Figma/Fullstack",
+      goto: "deardiary",
+      id: "12",
+    },
+    {
+      img: "/assets/website-screens/tasneem/splash1.png",
+      title: " Client Healthcare Clinic - UI/UX",
+      sub: "UI/UX/Figma",
+      goto: "tasneem",
+      id: "11",
+    },
+    {
+      img: "/assets/website-screens/hngmlabs/connect.png",
+      title: "HNGM SaaS - UI/UX",
+      sub: "UI/UX/Figma",
+      goto: "hngmlabs",
+      id: "9",
+    },
+    {
+      img: "/assets/website-screens/lostpets/lost1.png",
+      title: "Lost Pet Finder - UI/UX",
+      sub: "UI/UX/Figma",
+      goto: "lostpets",
+      id: "8",
+    },
+    {
       img: "/assets/website-screens/preppy/preppy5.PNG",
       title: "Django Webapp - Preppy",
       sub: "Python/Django/Docker",

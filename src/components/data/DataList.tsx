@@ -204,3 +204,130 @@ export const PreppyData: { src: string; alt: string; index: string }[] = [
     index: "5",
   },
 ];
+
+export const LostPetsData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/lostpets/splash.png",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/lostpets/lost1.png",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/lostpets/adoption.png",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/lostpets/findpet1.png",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/lostpets/petselection.png",
+    alt: "img-5",
+    index: "5",
+  },
+];
+
+export const HNGMData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/hngmlabs/splash1.png",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/hngmlabs/connect.png",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/hngmlabs/autocad1.png",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/hngmlabs/articles1.png",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/hngmlabs/expertise1.png",
+    alt: "img-5",
+    index: "5",
+  },
+  {
+    src: "assets/website-screens/hngmlabs/about1.png",
+    alt: "img-6",
+    index: "6",
+  },
+];
+
+export const TasneemData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/tasneem/splash1.png",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/tasneem/theclinic1.png",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/tasneem/services1.png",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/tasneem/how1.png",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/tasneem/footer1.png",
+    alt: "img-5",
+    index: "5",
+  },
+];
+
+export const DearDiaryData: { src: string; alt: string; index: string }[] = [
+  {
+    src: "assets/website-screens/deardiary/login.png",
+    alt: "img-1",
+    index: "1",
+  },
+  {
+    src: "assets/website-screens/deardiary/diary-choice.png",
+    alt: "img-2",
+    index: "2",
+  },
+  {
+    src: "assets/website-screens/deardiary/diary-alt.png",
+    alt: "img-3",
+    index: "3",
+  },
+  {
+    src: "assets/website-screens/deardiary/chapters-alt.png",
+    alt: "img-4",
+    index: "4",
+  },
+  {
+    src: "assets/website-screens/deardiary/profile.png",
+    alt: "img-5",
+    index: "5",
+  },
+  {
+    src: "assets/website-screens/deardiary/editor.png",
+    alt: "img-6",
+    index: "6",
+  },
+  {
+    src: "assets/website-screens/deardiary/trustees.png",
+    alt: "img-7",
+    index: "7",
+  },
+];
